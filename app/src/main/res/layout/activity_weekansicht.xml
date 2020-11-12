@@ -7,6 +7,7 @@
     tools:context=".Weekansicht">
 
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="734dp"
         android:layout_height="217dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,77 +24,33 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical" />
-        </TableRow>
+                android:orientation="vertical">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <Spinner
+                    android:id="@+id/spinner17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
-        </TableRow>
+                <Spinner
+                    android:id="@+id/spinner16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <Spinner
+                    android:id="@+id/spinner15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
-        </TableRow>
+                <Spinner
+                    android:id="@+id/spinner14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
+                <Spinner
+                    android:id="@+id/spinner13"
+                    android:layout_width="104dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
         </TableRow>
 
     </TableLayout>
@@ -166,5 +123,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/xWText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x Wert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textHello"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textHello"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/yWText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="y Wert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="78dp"
         android:background="#89cff0"
-        android:text="Welcome!"
+        android:text="Your Day!"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/white"
@@ -23,19 +23,73 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="151dp"
+        android:layout_height="43dp"
+        android:text="Friday"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="407dp"
+        android:layout_height="496dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textHello"
+        app:layout_constraintVertical_bias="0.64">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </TableRow>
+
     <Button
-        android:id="@+id/weekPlaner"
-        android:layout_width="380dp"
-        android:layout_height="90dp"
-        android:text="Week-planer"
+        android:id="@+id/creatA"
+        android:layout_width="256dp"
+        android:layout_height="46dp"
         android:backgroundTint="#89cff0"
+        android:text="Create Appointment"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.896"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.962" />
+
+    <TextView
+        android:id="@+id/xtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x Wert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/yText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="y Wert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
