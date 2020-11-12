@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Weekplaner">
-        <activity android:name=".Tagesansicht"></activity>
+        <activity android:name=".TerminFormular"></activity>
+        <activity android:name=".Tagesansicht" />
         <activity android:name=".Weekansicht" />
         <activity android:name=".MainActivity">
             <intent-filter>
